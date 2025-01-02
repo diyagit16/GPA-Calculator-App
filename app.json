@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "GPA Calculator",
+    "slug": "gpa-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "images.jpeg",
+    "splash": {
+      "image": "images.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "images.jpeg",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "platforms": ["ios", "android", "web"],
+    "web": {
+      "bundler": "metro",
+      "transform.engine": "hermes"
+    }
+  }
+}
